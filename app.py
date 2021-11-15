@@ -10,7 +10,7 @@ import motor.motor_asyncio
 app = FastAPI()
 
 a1 = "anaji_091121"
-p1 = "###########"
+p1 = "fjvhHGCPgAMY9nT6"
 MONGODB_URL = "mongodb://{}:{}@cluster1-shard-00-00.zwyx0.mongodb.net:27017,cluster1-shard-00-01.zwyx0.mongodb.net:27017,cluster1-shard-00-02.zwyx0.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-mualzv-shard-0&authSource=admin&retryWrites=true&w=majority".format(a1,p1)
 # client = motor.motor_asyncio.AsyncIOMotorClient(os.environ["MONGODB_URL"])
 
